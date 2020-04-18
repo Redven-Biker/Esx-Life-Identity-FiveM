@@ -1,0 +1,80 @@
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	display: block;
+}
+
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../img/background.jpg);
+	background-position: center;
+}
+
+.dialog {
+	font-family: "Prototype", serif;
+	position: relative;
+	font-size: 22px;
+	left: 150px;
+	margin-top: 200px;
+	width: 350px;
+	height: 455px;
+	background-color: rgb(27, 27, 27);
+	overflow: hidden;
+}
+
+input[type=text] {
+	font-family: "Prototype", serif;
+	font-size: 15px;
+	width: 100%;
+	color: white;
+	height: 50px;
+	text-align: center;
+	background-color: rgb(27, 27, 27);
+	border-color: rgb(58, 58, 58);
+}
+
+button {
+	font-family: "Prototype", serif;
+	display: block;
+	margin-top: 5px;
+	padding: 18px;
+	background-color: #1944ff;
+	border: 0;
+	color: #fff;
+	width: 100%;
+	font-size: 25px;
+}
+
+h1 {
+	display: block;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	color: #fff;
+	width: 93%;
+	text-align: center;
+}
+
+.radio {
+	font-family: "Prototype", serif;
+	font-size: 15px;
+	color: white;
+}
+
+@font-face {
+	font-family: "Prototype";
+	src: url("../font/Prototype.ttf");
+  }
+
+@media only screen and (max-width: 1060px) {
+	.dialog {
+		left: 10%;
+	}
+}
